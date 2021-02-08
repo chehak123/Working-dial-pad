@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="keypad">
+
+        <!-- empty space -->
+        <p id="empty"></p>
+
+        <!-- 1st row -->
+
+        <div class="row">
+          <div class="num" id="one" onclick="fillone()">1</div>
+
+          <div class="num" onclick="filltwo()">2
+            <div class="sub">ABC</div>
+          </div>
+
+          <div class="num" onclick="filltthree()">3
+            <div class="sub">DEF</div>
+          </div>
+
+        </div>
+
+        <!-- 2nd row -->
+        <div class="row">
+
+          <div class="num" onclick="fillfour()">4
+            <div class="sub">GHI</div>
+          </div>
+
+          <div class="num" onclick="fillfive()">5
+            <div class="sub">JKL</div>
+          </div>
+
+          <div class="num" onclick="fillsix()">6
+            <div class="sub">MNO</div>
+          </div>
+
+        </div>
+
+        <!-- 3rd row -->
+        <div class="row">
+          <div class="num" onclick="fillseven()">7
+            <div class="sub">PQRS</div>
+          </div>
+
+          <div class="num" onclick="filleight()">8
+            <div class="sub">TUV</div>
+          </div>
+
+          <div class="num" onclick="fillnine()">9
+            <div class="sub">WXYZ</div>
+          </div>
+
+        </div>
+
+        <!-- 4th row -->
+        <div class="row">
+
+          <div class="num" onclick="fillstar()">*
+          </div>
+
+          <div class="num" onclick="fillzero()">0
+          </div>
+
+          <div class="num" onclick="fillhash()">#
+          </div>
+
+        </div>
+
+        <!-- favicon row -->
+        <div class="row" id="bottomrow">
+            <div class="num" id="icon"><i class="fa fa-star-o" ></i></div>
+          <div class="num call" id="icon"><i class="fa fa-phone" ></i></div>
+          <div class="num" id="icon" onclick="rem()"><i class="fa fa-long-arrow-left"></i></div>
+        </div>
+
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>

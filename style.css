@@ -1,0 +1,63 @@
+body{
+   background-color: rgb(87, 155, 219);
+}
+
+.keypad{
+    background-color: white;
+    width: 350px;
+    height: 470px;
+    padding: 25px;
+    -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.1);
+    -moz-box-shadow:7px 7px 7px rgba(0,0,0,0.1);
+     box-shadow:7px 7px 7px rgba(0,0,0,0.1);
+     text-align: center;
+     margin:70px auto;
+}
+
+.keypad #empty{
+    height: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #72a5d8;
+}
+
+.keypad .row{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.row .num{
+    width: 100px;
+    font-size: 33px;
+    cursor: pointer;
+    margin: 12px auto;
+}
+
+.row .num .sub{
+    font-size: 12px;
+    color: grey;
+}
+
+.keypad #bottomrow{
+    /* margin-top: 10px; */
+    font-size: 28px;
+}
+
+.keypad #icon{
+    font-size: 17px;
+}
+
+.call{
+    background-color: rgb(44, 170, 44);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    /* width: 20px; */
+}
+
+.call:hover{
+    background-color: rgba(44, 170, 44, 0.726);
+}
+
