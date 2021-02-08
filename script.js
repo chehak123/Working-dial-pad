@@ -112,7 +112,6 @@ let fillhash = () => {
 let rem = () => {
         let ele = document.getElementById('empty')
         var str2 = str.substr(0, str.length-1);
-        // console.log(str2);/
         str=str2;
         ele.innerHTML=str;
         count--;
